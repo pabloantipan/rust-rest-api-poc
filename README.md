@@ -37,13 +37,7 @@ cp .env.example .env
 # Edit .env with your configurations
 ```
 
-3. Initialize the database:
-```bash
-sqlx database create
-sqlx migrate run
-```
-
-4. Build and run the project:
+3. Build and run the project:
 ```bash
 cargo build
 cargo run
