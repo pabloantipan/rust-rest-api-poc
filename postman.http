@@ -1,0 +1,16 @@
+## Users
+
+### Create
+POST http://localhost:8081/api/users
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "doe@example.cl"
+}
+
+### Get All
+GET http://localhost:8081/api/users
+
+### Get By Id
+GET http://localhost:8081/api/users/0bf5a610-5f7e-415f-a8f8-9c457f57fdb3
