@@ -45,7 +45,7 @@ pub async fn update_user(
         user.name = user_req.name.clone();
         user.email = user_req.email.clone();
         user.updated_at = chrono::Utc::now();
-        HttpResponse::Ok().json(user)
+        HttpResponse::Ok().json(user) 
     } else {
         HttpResponse::NotFound().finish()
     }
